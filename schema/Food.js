@@ -30,6 +30,9 @@ const Food = new Schema({
     img: {
         type: String,
         required: true
+    },
+    machnho:{
+        type:[String]
     }
 })
 
